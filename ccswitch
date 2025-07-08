@@ -1,4 +1,0 @@
-#!/bin/bash
-$(dirname $0)/ccswitch_be $@
-export CLAUDE_CONFIG_DIR="$(cat /tmp/ccswitch_be)"
-$(dirname $0)/ccswitch_be --success-to-switch
