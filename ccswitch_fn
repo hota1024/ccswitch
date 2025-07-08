@@ -1,6 +1,6 @@
 #!/bin/bash
 ccswitch() {
-    $(dirname $0)/ccswitch_be $@
+    ccswitch_be $@
     export CLAUDE_CONFIG_DIR="$(cat /tmp/ccswitch_be)"
-    $(dirname $0)/ccswitch_be --success-to-switch
+    ccswitch_be --success-to-switch
 }
