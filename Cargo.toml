@@ -1,0 +1,9 @@
+[package]
+name = "ccswitch_be"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.40", features = ["derive"] }
+inquire = "0.7.5"
+console = "0.16.0"
