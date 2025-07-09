@@ -9,7 +9,7 @@ brew tap hota1024/ccswitch
 brew install ccswitch
 
 # and add to your shell profile
-source /opt/homebrew/opt/ccswitch/bin/ccswitch_be
+source /opt/homebrew/opt/ccswitch/bin/ccswitch_fn
 ```
 
 # Usage
